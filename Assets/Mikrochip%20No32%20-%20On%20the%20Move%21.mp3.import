@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Mikrochip%20No32%20-%20On%20the%20Move%21.mp3-f54ba98360a0442727e0110a23594b95.mp3str"
+
+[deps]
+
+source_file="res://Assets/Mikrochip%20No32%20-%20On%20the%20Move%21.mp3"
+dest_files=[ "res://.import/Mikrochip%20No32%20-%20On%20the%20Move%21.mp3-f54ba98360a0442727e0110a23594b95.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

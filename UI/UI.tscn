@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/Menu.gd" type="Script" id=1]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="Menu" type="Control" parent="."]
+pause_mode = 2
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+
+[node name="Background" type="ColorRect" parent="Menu"]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.298039, 0.117647, 0.262745, 0.8 )
+
+[node name="Quit" type="Button" parent="Menu"]
+margin_left = 462.0
+margin_top = 500.0
+margin_right = 562.0
+margin_bottom = 540.0
+text = "Quit Game?"
+
+[connection signal="pressed" from="Menu/Quit" to="Menu" method="_on_Quit_pressed"]
